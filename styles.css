@@ -60,6 +60,7 @@ h3 {
     padding: 10px;
     background: #bbd6eb;
     font-size: 2vw;
+    margin-bottom: 0;
 }
 
 @media screen and (min-width: 1200px) {
