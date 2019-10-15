@@ -3,5 +3,5 @@ So you want to win the Space Apps Challenge?
 
 Here's how to access most of the NASA Open Data websites.
 
-This repo contains the source code for the webpage: sac.napszel.com
+This repo contains the source code for the webpage: nasadata.napszel.com
 
