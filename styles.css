@@ -7,10 +7,20 @@ body {
     background: linear-gradient(#1C2E43, #2D4B6C)
 }
 
-.content {
-    max-width: 560px;
-    margin: auto;
+
+.row {
+    width: 100%;
 }
+
+.col {
+    margin-bottom: 30px;
+    min-width: 300px;
+}
+
+.first {
+    margin-bottom: 10px;
+}
+
 
 .item {
     height: 100%;
@@ -29,7 +39,7 @@ body {
 }
 
 img {
-    width: 560px;
+    width: 100%;
 }
 
 .mono {
@@ -43,11 +53,25 @@ h1 {
 }
 
 h3 {
+    width: 100%;
     font-style: italic;
     font-weight: 600;
     letter-spacing: 0.06em;
     padding: 10px;
     background: #bbd6eb;
+    font-size: 2vw;
+}
+
+@media screen and (min-width: 1200px) {
+  h3 {
+     font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  h3 {
+     font-size: 22px;
+  }
 }
 
 a {

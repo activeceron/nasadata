@@ -10,127 +10,151 @@
     <div class="header">
       <h1>List of NASA Open Data Sources</h1>
     </div>
-    <div class="content">
-      <div class="text">
-	<h4>So you want to win that Hackaton?</h4>
-	<p>This might be a good place to start looking for data.</p>
-	<p>I collected here the main NASA Open Data websites that you can use to find raw data and APIs for your project.</p>
-	<p><b>Please note:</b> This is not an official NASA website. But I am a <a href="http://https://2019.spaceappschallenge.org">NASA Space Apps Challenge</a> Ambassador and a <a href="https://open.nasa.gov/explore/datanauts/">NASA Datanaut</a> who likes working with open data like you.</p>
-      </div>
-      <hr />
-      <div class="item">
-	<div class="title">
-	  <a href="https://data.nasa.gov/browse">
-	    <h3>data.nasa.gov/browse</h3>
-	    <img src="img/datanasagov.png" />
-	  </a>
+
+    <div class="container">
+
+      <div class="row">	
+	<div class="col first">
+	  <div class="text">
+	    <h4>So you want to win that Hackaton?</h4>
+	    <p>This might be a good place to start looking for data.</p>
+	    <p>I collected here the main NASA Open Data websites that you can use to find raw data and APIs for your project.</p>
+	    <p><b>Please note:</b> This is not an official NASA website. But I am a <a href="http://https://2019.spaceappschallenge.org">NASA Space Apps Challenge</a> Ambassador and a <a href="https://open.nasa.gov/explore/datanauts/">NASA Datanaut</a> who likes working with open data like you.</p>
+	  </div> 
+	  <hr />
 	</div>
-	<div class="text">
-	  <ul>
-	    <li>A NASA Data Catalog that is home to <b>42,966</b> datasets</li>
-	    <li>99,9% are <b>External Datasets</b> &rarr; Links to data living on another server</li>
-	    <li>Filters:
+      </div>
+
+      <div class="row">
+	<div class="col">
+	  <div class="item">
+	    <div class="title">
+	      <a href="https://data.nasa.gov/browse">
+		<h3>data.nasa.gov/browse</h3>
+		<img src="img/datanasagov.png" />
+	      </a>
+	    </div>
+	    <div class="text">
 	      <ul>
-		<li><b>Categories</b>: not all datasets have one set; cannot filter for multiple categories at once</li>
-		<li><b>View Types</b>: 99,9% are External Datasets &rarr; follow link to download/access the data; 17 are Datasets that live on this page &rarr; these can be displayed/analysed here or exported</li>
-		<li><b>Tags</b>: 6869 tags; not easy to use</li>	      
+		<li>A NASA Data Catalog that is home to <b>42,966</b> datasets</li>
+		<li>99,9% are <b>External Datasets</b> &rarr; Links to data living on another server</li>
+		<li>Filters:
+		  <ul>
+		    <li><b>Categories</b>: not all datasets have one set; cannot filter for multiple categories at once</li>
+		    <li><b>View Types</b>: 99,9% are External Datasets &rarr; follow link to download/access the data; 17 are Datasets that live on this page &rarr; these can be displayed/analysed here or exported</li>
+		    <li><b>Tags</b>: 6869 tags; not easy to use</li>	      
+		  </ul>
+		</li>
+		<li><b>Sorting</b>: try sorting by 'Most accessed' and a less specific search query (e.g. 'mars') to get the most popular datasets</li>
 	      </ul>
-	    </li>
-	    <li><b>Sorting</b>: try sorting by 'Most accessed' and a less specific search query (e.g. 'mars') to get the most popular datasets</li>
-	  </ul>
+	    </div>
+	  </div>
 	</div>
-      </div>
-
-      <div class="item">
-	<div class="title">
-	  <a href="https://api.nasa.gov">
-	    <h3>api.nasa.gov</h3>
-	    <img src="img/apinasagov.png" />
-	  </a>
-	</div>
-	<div class="text">
-	  <ul>
-	    <li>A list of <b>17 NASA API's</b> and description of their usage</li>
-	    <li>A place to generate an <b>API key</b> that can be used to access data across all data.gov federal agency sites</li>
-	    <li>Use the <span class="mono">?api_key=DEMO_KEY</span> to try out the APIs before you generate your own. E.g.:
-	      <br/><a href="https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY"> <pre>https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY</pre></a>
-	    </li>
-	    <li>Rate Limits:
+    
+	<div class="col">
+	  <div class="item">
+	    <div class="title">
+	      <a href="https://api.nasa.gov">
+		<h3>api.nasa.gov</h3>
+		<img src="img/apinasagov.png" />
+	      </a>
+	    </div>
+	    <div class="text">
 	      <ul>
-		<li><b>DEMO_KEY</b>: 30 requests / hour; 50 requests / day</li>
-		<li><b>API Key</b>: 1000 requests / hour;</li>
+		<li>A list of <b>17 NASA API's</b> and description of their usage</li>
+		<li>A place to generate an <b>API key</b> that can be used to access data across all data.gov federal agency sites</li>
+		<li>Use the <span class="mono">?api_key=DEMO_KEY</span> to try out the APIs before you generate your own. E.g.:
+		  <br/><a href="https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY"> <pre>https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY</pre></a>
+		</li>
+		<li>Rate Limits:
+		  <ul>
+		    <li><b>DEMO_KEY</b>: 30 requests / hour; 50 requests / day</li>
+		    <li><b>API Key</b>: 1000 requests / hour;</li>
+		  </ul>
+		</li>
+		<li><a href="https://api.nasa.gov/#browseAPI">Browser the APIs</a></li>
 	      </ul>
-	    </li>
-	    <li><a href="https://api.nasa.gov/#browseAPI">Browser the APIs</a></li>
-	  </ul>
+	    </div>
+	  </div>
 	</div>
       </div>
-
-      <div class="item">
-	<div class="title">
-	  <a href="https://code.nasa.gov">
-	    <h3>code.nasa.gov</h3>
-	    <img src="img/codenasagov.png" />
-	  </a>
+      
+      <div class="row">
+	<div class="col">
+	  <div class="item">
+	    <div class="title">
+	      <a href="https://code.nasa.gov">
+		<h3>code.nasa.gov</h3>
+		<img src="img/codenasagov.png" />
+	      </a>
+	    </div>
+	    <div class="text">
+	      <ul>
+		<li>NASA's open source code projects, currently <b>555</b></li>
+		<li>About half of them are hosted on <b>GitHub</b>; The rest links to a project page and might require time to get</li>
+		<li>GitHub projects are generaly <b>free</b> to use but always read the corresponding LICENCE file</li>
+	      </ul>
+	    </div>
+	  </div>
 	</div>
-	<div class="text">
-	  <ul>
-	    <li>NASA's open source code projects, currently <b>555</b></li>
-	    <li>About half of them are hosted on <b>GitHub</b>; The rest links to a project page and might require time to get</li>
-	    <li>GitHub projects are generaly <b>free</b> to use but always read the corresponding LICENCE file</li>
-	  </ul>
-	</div>
-      </div>
-
-      <div class="item">
-	<div class="title">
-	  <a href="https://images.nasa.gov">
-	    <h3>images.nasa.gov</h3>
-	    <img src="img/imagesnasagov.png" />
-	  </a>
-	</div>
-	<div class="text">
-	  <ul>
-	    <li>Almost daily updated NASA <b>image and video</b> resource</li>
-	    <li>Images of <b>Earth, Space, People and events</b>; anything from NASA</li>
-	    <li>The materials are generaly not copyrighted and free to use except for the NASA logo itself; Read the <a href="https://www.nasa.gov/multimedia/guidelines">full guidlines here</a></li>
-	  </ul>
-	</div>
-      </div>
-
-      <div class="item">
-	<div class="title">
-	  <a href="https://worldview.earthdata.nasa.gov">
-	    <h3>worldview.earthdata.nasa.gov</h3>
-	    <img src="img/worldviewnasagov.png" />
-	  </a>
-	</div>
-	<div class="text">
-	  <ul>
-	    <li>Browse the latest, global, full-resolution <b>satellite imagery</b> (taken within 3 hours)</li>
-	    <li>Browse <b>historical</b> daily imagery (back to 2010)</li>
-	    <li>Add <b>layers</b> or data from satellites (for example fires and thermal anomalies)</li>
-	    <li><b>Download</b> the underlying data</li>
-	    <li>Generate and download <b>gif animations</b> from selected frames</li>
-	  </ul>
+	
+	<div class="col">
+	  <div class="item">
+	    <div class="title">
+	      <a href="https://images.nasa.gov">
+		<h3>images.nasa.gov</h3>
+		<img src="img/imagesnasagov.png" />
+	      </a>
+	    </div>
+	    <div class="text">
+	      <ul>
+		<li>Almost daily updated NASA <b>image and video</b> resource</li>
+		<li>Images of <b>Earth, Space, People and events</b>; anything from NASA</li>
+		<li>The materials are generaly not copyrighted and free to use except for the NASA logo itself; Read the <a href="https://www.nasa.gov/multimedia/guidelines">full guidlines here</a></li>
+	      </ul>
+	    </div>
+	  </div>
 	</div>
       </div>
-
-      <div class="item">
-	<div class="title">
-	  <a href="https://soundcloud.com/nasa">
-	    <h3>soundcloud.com/nasa</h3>
-	    <img src="img/sounds.png" />
-	  </a>
+    
+      <div class="row">
+	<div class="col">
+	  <div class="item">
+	    <div class="title">
+	      <a href="https://worldview.earthdata.nasa.gov">
+		<h3>worldview.earthdata.nasa.gov</h3>
+		<img src="img/worldviewnasagov.png" />
+	      </a>
+	    </div>
+	    <div class="text">
+	      <ul>
+		<li>Browse the latest, global, full-resolution <b>satellite imagery</b> (taken within 3 hours)</li>
+		<li>Browse <b>historical</b> daily imagery (back to 2010)</li>
+		<li>Add <b>layers</b> or data from satellites (for example fires and thermal anomalies)</li>
+		<li><b>Download</b> the underlying data</li>
+		<li>Generate and download <b>gif animations</b> from selected frames</li>
+	      </ul>
+	    </div>
+	  </div>
 	</div>
-	<div class="text">
-	  <ul>
-	    <li>Collection of <b>NASA sounds</b> from historic spaceflights, current missions and more</li>
-	    <li>Free to listen to all; some available for <b>download</b> (after free registration and login)</li>
-	  </ul>
+	  
+	<div class="col">
+	  <div class="item">
+	    <div class="title">
+	      <a href="https://soundcloud.com/nasa">
+		<h3>soundcloud.com/nasa</h3>
+		<img src="img/sounds.png" />
+	      </a>
+	    </div>
+	    <div class="text">
+	      <ul>
+		<li>Collection of <b>NASA sounds</b> from historic spaceflights, current missions and more</li>
+		<li>Free to listen to all; some available for <b>download</b> (after free registration and login)</li>
+	      </ul>
+	    </div>
+	  </div>
 	</div>
       </div>
-	    
     </div>
   </body>
 </html>
