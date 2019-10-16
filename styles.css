@@ -56,10 +56,9 @@ h3 {
     width: 100%;
     font-style: italic;
     font-weight: 600;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.04em;
     padding: 10px;
     background: #bbd6eb;
-    font-size: 2vw;
     margin-bottom: 0;
 }
 
@@ -104,6 +103,10 @@ a:visited {
 a:hover {
     color: #ffd01b;
     text-decoration: none;
+}
+
+.title {
+    overflow: hidden;
 }
 
 .title a:active {
