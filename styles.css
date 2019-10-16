@@ -14,7 +14,7 @@ body {
 
 .col {
     margin-bottom: 30px;
-    min-width: 300px;
+    min-width: 400px;
 }
 
 .first {
@@ -52,14 +52,19 @@ h1 {
     padding: 20px;
 }
 
-h3 {
+
+.title {
+    overflow: hidden;
     width: 100%;
     font-style: italic;
     font-weight: 600;
-    letter-spacing: 0.04em;
     padding: 10px;
     background: #bbd6eb;
     margin-bottom: 0;
+}
+
+.title h5 {
+    letter-spacing: 0.06em;
 }
 
 .video-container {
@@ -103,10 +108,6 @@ a:visited {
 a:hover {
     color: #ffd01b;
     text-decoration: none;
-}
-
-.title {
-    overflow: hidden;
 }
 
 .title a:active {
