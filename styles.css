@@ -4,10 +4,18 @@ body {
 }
 
 .header {
+    padding-top: 20px;
+    padding-bottom: 20px;
     background: linear-gradient(#1C2E43, #2D4B6C)
 }
 
-
+#credits {
+    font-size: .5em;
+    text-align: center;
+    line-height: 1.1em;
+    letter-spacing: .2em;
+}
+    
 .row {
     width: 100%;
 }
@@ -19,6 +27,7 @@ body {
 
 .first {
     margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 
